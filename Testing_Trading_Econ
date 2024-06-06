@@ -1,0 +1,23 @@
+# This is simply expieremntaion of apis effectivness, no actual effect upon the project at the moment 
+
+
+import requests
+
+
+
+
+api_key = 'url = f'https://api.tradingeconomics.com/country/mexico?c={api_key}&f=xml'
+url = f'https://api.tradingeconomics.com/markets/commodities?c={api_key}'
+data = requests.get(url).json()
+print(data)
+
+
+import tradingeconomics as te
+te.login('your_api_key')
+te.getMarketsData(marketsField = 'commodities')
+
+
+import requests
+
+response = requests.get('https://api.tradingeconomics.com/country/mexico', headers = {'Authorization': 'api_key'})
+print(response.json())
