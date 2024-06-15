@@ -1,4 +1,4 @@
-# maizerunner2
+# maizerunner
 Hi! Welcome to Maize-Runner, a student-led trading algorithm specializing in corn futures on the Chicago Board of Trade. Currently, we are integrating various factors into our price-prediction software.
 
 We aim to provide an accurate and reliable resource for predicting market movements over a 1-2 year period.
