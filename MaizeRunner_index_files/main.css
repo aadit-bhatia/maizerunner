@@ -1,0 +1,27 @@
+img {
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  justify-content: center;
+  align-items: center;
+}
+
+.titles{
+  text-align: center;
+}
+.user_selection {
+  font-weight: bold;
+  background-color: red;
+  text-align: center;
+}
+
+
+.html {
+  font-size: 15px;
+}
+body {
+  background-color: gray;
+  color: whitesmoke;
+}
